@@ -1,3 +1,4 @@
+import { Icon } from "@iconify/react";
 import Link from "next/link";
 
 export default function Home() {
@@ -12,9 +13,16 @@ export default function Home() {
         <p className={`m-0 w-full text-sm text-gray-400 dark:text-gray-500`}>
           Frontend engineer <br />
           Working with Vue.js, React.js & React Native <br />
-          Jr. Bonsai Trainer <br />
           Read my <Link href="/resume" className="normal-anchor">resume</Link>
         </p>
+        <div className="flex gap-3 pt-5">
+          <a href="https://github.com/garudamon" target="_blank">
+            <Icon icon="devicon:github" width={30} className="opacity-60 hover:opacity-100"></Icon>
+          </a>
+          <a href="https://www.linkedin.com/in/aliimron/ " target="_blank">
+            <Icon icon="skill-icons:linkedin" width={30} className="opacity-60 hover:opacity-100"></Icon>
+          </a>
+        </div>
       </div>
     </div>
   );

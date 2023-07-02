@@ -2,6 +2,7 @@ import ExperienceItem, {
   ExperienceItemProps,
 } from "@/components/ExperienceItem";
 import Tag from "@/components/Tag";
+import { Icon } from "@iconify/react";
 import Image from "next/image";
 
 const ResumePage = () => {
@@ -100,7 +101,17 @@ const ResumePage = () => {
         "Transform design into interactive front-end with Ext.js or Vue.js. ",
         "Dev-ops (Setup SaaS env with AWS EC2, RDS, and ELB). ",
       ],
-      stack: ["PHP", "Javascript", "jQuery", "Ext.js", "Vue.js", "MySQL", "Firebird", "Nginx", "AWS (EC2, RDS, ELB)" ],
+      stack: [
+        "PHP",
+        "Javascript",
+        "jQuery",
+        "Ext.js",
+        "Vue.js",
+        "MySQL",
+        "Firebird",
+        "Nginx",
+        "AWS (EC2, RDS, ELB)",
+      ],
       year: "Jul 2012 - Nov 2017",
       location: "Yogyakarta, ID",
     },
@@ -124,6 +135,22 @@ const ResumePage = () => {
             <div className="text-xl pt-5 px-5">Muhammad Ali Imron</div>
             <div className="text-sm px-5 pb-5 text-slate-500">
               Frontend Engineer
+            </div>
+            <div className="flex gap-3 p-5 pt-0">
+              <a href="https://github.com/garudamon" target="_blank">
+                <Icon
+                  icon="devicon:github"
+                  width={30}
+                  className="opacity-60 hover:opacity-100"
+                ></Icon>
+              </a>
+              <a href="https://www.linkedin.com/in/aliimron/ " target="_blank">
+                <Icon
+                  icon="skill-icons:linkedin"
+                  width={30}
+                  className="opacity-60 hover:opacity-100"
+                ></Icon>
+              </a>
             </div>
           </header>
           <div className="resume card p-5 grid grid-cols-1 sm:grid-cols-3 gap-5">
