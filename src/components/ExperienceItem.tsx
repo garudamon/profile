@@ -19,7 +19,7 @@ const ExperienceItem = (props: ExperienceItemProps) => {
         <Image src={props.path} width={40} height={40} alt={`${props.company} Logo`} className="rounded-lg" />
       </div>
       <div className="flex-grow">
-        <div className="flex justify-between">
+        <div className="flex flex-col sm:flex-row justify-between">
           <div className="company-info">
             <div className="font-semibold text-lg">{props.title}</div>
             <div className="flex gap-5 items-center text-slate-500 text-xs">
@@ -33,9 +33,9 @@ const ExperienceItem = (props: ExperienceItemProps) => {
               </div>
             </div>
           </div>
-          <div className="employment flex flex-col items-end text-xs">
+          <div className="employment flex flex-row mt-2 sm:mt-0 sm:flex-col items-center sm:items-end text-xs">
             <Tag text="Full Time" />
-            <div className="flex gap-1 items-center">
+            <div className="flex gap-1 items-center mt-0 sm:mt-1 ml-3 sm:ml-0">
               <Icon icon={"solar:calendar-linear"} height={16} />
               <span className="text-slate-500">{props.year}</span>
             </div>
