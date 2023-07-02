@@ -1,0 +1,22 @@
+---
+title: 'Display Flex Item Overflow'
+publishedAt: '2023-05-16'
+excerpt: 'Prevent CSS3 display flex item overflow on parent'
+cover_image: 'path/to/where/image/is/stored'
+category: 'notes'
+---
+
+sometime we have a flex item overflow the parent width, this note is to prevent that happened
+
+```css
+.parent {
+    display: flex;
+}
+.child-1 {
+    flex: 1 1 0;
+    min-width: 0px;
+}
+.child-2 {
+    width: 99px;
+}
+```
