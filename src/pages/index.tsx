@@ -16,12 +16,15 @@ export default function Home() {
           Read my <Link href="/resume" className="normal-anchor">resume</Link>
         </p>
         <div className="flex gap-3 pt-5">
-          <a href="https://github.com/garudamon" target="_blank">
+          <Link href="https://github.com/garudamon" target="_blank">
             <Icon icon="devicon:github" width={30} className="opacity-60 hover:opacity-100 dark:invert"></Icon>
-          </a>
-          <a href="https://www.linkedin.com/in/aliimron/ " target="_blank">
+          </Link>
+          <Link href="https://www.linkedin.com/in/aliimron/ " target="_blank">
             <Icon icon="skill-icons:linkedin" width={30} className="opacity-60 hover:opacity-100"></Icon>
-          </a>
+          </Link>
+          <Link href="mailto:m.aliimron3@gmail.com">
+            <Icon icon="iconoir:mail" width={30} className="opacity-60 hover:opacity-100"></Icon>
+          </Link>
         </div>
       </div>
     </div>

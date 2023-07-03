@@ -36,5 +36,5 @@ body {
 
 
 .resume.card {
-  @apply rounded-md overflow-hidden shadow-md dark:border dark:border-teal-700;
+  @apply rounded-md overflow-hidden shadow-md dark:border dark:border-teal-700 bg-white dark:bg-transparent;
 }
