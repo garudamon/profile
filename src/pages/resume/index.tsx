@@ -137,7 +137,7 @@ const ResumePage = () => {
               Frontend Engineer
             </div>
             <div className="flex gap-3 p-5 pt-0">
-              <a href="https://github.com/garudamon" target="_blank">
+              <a href="https://github.com/garudamon" target="_blank" className="dark:invert">
                 <Icon
                   icon="devicon:github"
                   width={30}

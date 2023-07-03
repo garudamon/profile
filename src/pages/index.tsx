@@ -17,7 +17,7 @@ export default function Home() {
         </p>
         <div className="flex gap-3 pt-5">
           <a href="https://github.com/garudamon" target="_blank">
-            <Icon icon="devicon:github" width={30} className="opacity-60 hover:opacity-100"></Icon>
+            <Icon icon="devicon:github" width={30} className="opacity-60 hover:opacity-100 dark:invert"></Icon>
           </a>
           <a href="https://www.linkedin.com/in/aliimron/ " target="_blank">
             <Icon icon="skill-icons:linkedin" width={30} className="opacity-60 hover:opacity-100"></Icon>
