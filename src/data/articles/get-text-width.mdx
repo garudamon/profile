@@ -1,0 +1,21 @@
+---
+title: 'Javascript: Get text width'
+publishedAt: '2023-10-19'
+excerpt: 'dynamic text width with canvas'
+cover_image: 'path/to/where/image/is/stored'
+category: 'notes'
+---
+
+trick to get text widht based on dynamic text and font family, use canvas.
+
+```javascript
+function getTextWidth(text, font) {
+    const canvas =
+        getTextWidth.canvas ||
+        (getTextWidth.canvas = document.createElement("canvas"));
+    const context = canvas.getContext("2d");
+    context.font = font;
+    const metrics = context.measureText(text);
+    return metrics.width;
+}
+```
