@@ -47,7 +47,7 @@ const ResumePage = () => {
                   className="opacity-60 hover:opacity-100"
                 ></Icon>
               </Link>
-              <Link href="mailto:m.aliimron3@gmail.com">
+              <Link href="mailto:hi@aliimron.com">
                 <Icon
                   icon="iconoir:mail"
                   width={30}

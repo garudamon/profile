@@ -22,7 +22,7 @@ export default function Home() {
           <Link href="https://www.linkedin.com/in/aliimron/ " target="_blank">
             <Icon icon="skill-icons:linkedin" width={30} className="opacity-60 hover:opacity-100"></Icon>
           </Link>
-          <Link href="mailto:m.aliimron3@gmail.com">
+          <Link href="mailto:hi@aliimron.com">
             <Icon icon="iconoir:mail" width={30} className="opacity-60 hover:opacity-100"></Icon>
           </Link>
         </div>
