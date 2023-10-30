@@ -1,0 +1,22 @@
+---
+title: 'Deep Watch Vue2'
+publishedAt: '2023-10-30'
+excerpt: 'Vue2 deep watch on object'
+cover_image: 'path/to/where/image/is/stored'
+category: 'notes'
+---
+
+watch object state changes with deep params on Vue2
+
+```javascript
+watch: {
+    row: {
+        handler: function(newVal, oldVal) {
+            if(newVal.config.showAvatar != oldVal.config.showAvatar) {
+                // actions
+            }
+        },
+        deep: true,
+    }
+}
+```
